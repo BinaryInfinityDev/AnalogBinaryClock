@@ -1,0 +1,36 @@
+{
+  "name": "AnalogBinaryClock",
+  "version": "0.0.1",
+  "description": "Arduino/PlatformIO library for generating LED \"hand\" positions for an analog clock with binary hands.",
+  "keywords": ["led", "time", "clock", "binary"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bamapookie/AnalogBinaryClock",
+    "branch": "main"
+  },
+  "authors": {
+    "name": "Shawn Kovalchick",
+    "url": "https://github.com/bamapookie",
+    "maintainer": true
+  },
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://github.com/bamapookie/AnalogBinaryClock",
+  "export": {
+    "include": [],
+    "exclude": []
+  },
+  "frameworks": ["Arduino"],
+  "platforms": ["atmelavr", "atmelsam", "freescalekinetis", "nordicnrf51", "nxplpc", "ststm32", "teensy", "espressif8266", "espressif32", "nordicnrf52"],
+  "dependencies": [
+    {
+      "owner": "paulstoffregen",
+      "name": "Time",
+      "version": "^1.6"
+    },
+    {
+      "owner": "fastled",
+      "name": "FastLED",
+      "version": "^3.3.3"
+    }
+  ]
+}
